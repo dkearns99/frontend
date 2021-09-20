@@ -13,8 +13,6 @@ function TodoItem(props) {
                     <hr></hr>
                 </p>
             </div>
-
-
         )
 }
 
