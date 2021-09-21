@@ -6,7 +6,7 @@ import TodoItem from "./Todo"
          <div>
              <ul>
                 {
-                 (props.todoLis && props.todoList.length > 0 )
+                 (props.todoList && props.todoList.length > 0 )
                  ?
                 props.todoList.map(todo => <TodoItem todo= 
                 {todo} />)
